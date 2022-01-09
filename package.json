@@ -1,0 +1,23 @@
+{
+  "name": "w4-project_notion_vanillajs",
+  "version": "1.0.0",
+  "description": "## 기본 요구사항",
+  "main": "index.js",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alang Kim",
+  "license": "ISC",
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
